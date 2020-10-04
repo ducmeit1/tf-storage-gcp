@@ -11,7 +11,7 @@ This module will:
 
 ```hcl
 module "bucket" {
-    source = "git::git@github.com:ducmeit1/tf-storage-gcp.git/?ref=v0.0.1"
+    source = "github.com/ducmeit1/tf-storage-gcp"
     gcp_project = "driven-stage-269911"
     name = "nearline-class-bucket"
     bucket_location = "ASIA"

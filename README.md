@@ -18,3 +18,8 @@ module "bucket" {
     bucket_force_destroy = false
 }
 ```
+
+```shell
+terraform plan
+terraform apply --auto-approve
+```
